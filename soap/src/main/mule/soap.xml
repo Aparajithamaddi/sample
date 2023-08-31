@@ -43,5 +43,6 @@ payload]]></ee:set-payload>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="8be958c7-bfb4-4a18-8e76-c0b13998e457" message="#[payload]" />
 		<logger level="INFO" doc:name="Logger" doc:id="9bb784fc-fa5a-4226-bc96-90e573b99ab0" message="operation sucess"/>
+		<logger level="INFO" doc:name="Logger" doc:id="eeabf5dd-6159-474a-9c37-ccce7dac903d" message="flow end"/>
 	</flow>
 </mule>
